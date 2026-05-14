@@ -17,6 +17,7 @@ class Guava < Formula
   def install
     binary_name = Hardware::CPU.arm? ? "guava-darwin-aarch64" : "guava-darwin-x86_64"
     bin.install binary_name => "guava"
+    (bin / ".no-self-update").write ""
   end
 
   test do
