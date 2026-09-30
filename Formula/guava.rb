@@ -1,16 +1,16 @@
 class Guava < Formula
   desc "Command-line interface for managing Guava agents and deployments"
   homepage "https://goguava.ai"
-  version "0.45.0"
+  version "0.46.0"
 
   on_macos do
     on_intel do
-      url "https://storage.googleapis.com/gridspace-guava-cli/cli/0.45.0/guava-darwin-x86_64"
-      sha256 "d95dd93173f105663846739b249b7efdb233054fcbeca1b1ebf02bcd6a6d6530"
+      url "https://storage.googleapis.com/gridspace-guava-cli/cli/0.46.0/guava-darwin-x86_64"
+      sha256 "e7c7fefada6cda6b18dd5d4bf0d0938f902c23b911f3ead765362b62db194a20"
     end
     on_arm do
-      url "https://storage.googleapis.com/gridspace-guava-cli/cli/0.45.0/guava-darwin-aarch64"
-      sha256 "9356629a051010ae24d74719dd0ae80d26de5b1750fe842c245f9748b1049f17"
+      url "https://storage.googleapis.com/gridspace-guava-cli/cli/0.46.0/guava-darwin-aarch64"
+      sha256 "601b3c66c62c6b7989c75f7bda61e344874b1b08fe4a36b0c60e8d03bac8ea9b"
     end
   end
 
